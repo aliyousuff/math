@@ -35,4 +35,10 @@ mod tests {
         let result = multiplication(2, 3);
         assert_eq!(result, 6)
     }
+
+    #[test]
+    fn it_works3() {
+        let result = divide(10, 2);
+        assert_eq!(result.unwrap(), 5);
+    }
 }
