@@ -10,6 +10,16 @@ pub fn multiplication(left: isize, right: isize) -> isize{
     left * right
 }
 
+pub fn divide(left: isize, right: isize ) -> Result<isize, String>{
+    if right == 0 {
+        Err("Division by zero".to_string())
+    } else {
+        Ok(left / right)
+    }
+
+}
+
+
 #[cfg(test)]
 mod tests {
     use super::*;
