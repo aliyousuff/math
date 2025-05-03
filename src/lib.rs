@@ -23,6 +23,9 @@ pub fn divide(left: isize, right: isize ) -> Result<isize, String>{
 
 }
 
+pub fn triple_add(one: isize, two: isize, three: isize) -> isize {
+    one + two + three 
+}
 
 #[cfg(test)]
 mod tests {
