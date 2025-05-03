@@ -3,14 +3,17 @@ pub fn add(left: u64, right: u64) -> u64 {
     left + right
 }
 
+// this function subtracts two numbers
 pub fn subtract(left: isize, right: isize ) -> isize {
     left - right 
 }
 
+// this function multiplies two numbers
 pub fn multiplication(left: isize, right: isize) -> isize{
     left * right
 }
 
+// this function divides two numbers 
 pub fn divide(left: isize, right: isize ) -> Result<isize, String>{
     if right == 0 {
         Err("Division by zero".to_string())
