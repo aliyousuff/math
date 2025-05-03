@@ -41,4 +41,10 @@ mod tests {
         let result = divide(10, 2);
         assert_eq!(result.unwrap(), 5);
     }
+
+    #[test]
+    fn it_works4() {
+        let result = divide(9, 0);
+        assert_eq!(result, Err("Division by zero".to_string()) )
+    }
 }
