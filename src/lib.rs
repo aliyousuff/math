@@ -6,6 +6,10 @@ pub fn subtract(left: isize, right: isize ) -> isize {
     left - right 
 }
 
+pub fn multiplication(left: isize, right: isize) -> isize{
+    left * right
+}
+
 #[cfg(test)]
 mod tests {
     use super::*;
